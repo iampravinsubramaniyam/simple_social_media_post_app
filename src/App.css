@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  box-shadow: 1px 2px 5px black;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +38,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.AppNav{
+  position: fixed;
+  top:0px;
+  width:100%;
+}
+
+.AppBody{
+  margin-top: 20vh;
 }
